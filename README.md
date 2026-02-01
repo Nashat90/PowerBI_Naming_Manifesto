@@ -2,10 +2,15 @@
 
 **Table of Content:**
 	1.Introduction to the Manifesto
+	
 	2.Main Convention Rules
+	
 	3.Meausres
+	
 	4.Tables
+	
 	5.Columns
+	
 
 
 ## **1-Introduction to PowerBI Naming Convention Manifesto**
