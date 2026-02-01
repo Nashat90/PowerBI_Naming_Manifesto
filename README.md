@@ -1,6 +1,7 @@
 #  **PowerBI Naming Manifesto**
 
 **Table of Content:**
+
 	1.Introduction to the Manifesto
 	
 	2.Main Convention Rules
