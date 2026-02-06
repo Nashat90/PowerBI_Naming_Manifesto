@@ -3,7 +3,7 @@
  - **Version** :  *0.1*
  -  **Date** : *February 2026*
  - **Author** : *Nashat Jumaah Omar*
- -  [Auther's LinkedIn](www.linkedin.com/in/nash-j)
+ - [Auther's LinkedIn](www.linkedin.com/in/nash-j)
  - Email : nashattt90@gmail.com
 
    
@@ -46,22 +46,23 @@ A messy model with "Column 1" and "Measure (2)" signals a messy and fragile data
 A standardized naming convention ensures that intellectual property remains accessible long after the initial development phase. Future developers—including our future selves—should not have to "reverse-engineer" the intent behind a calculation. Clear, standard nomenclature serves as immediate documentation, allowing the focus to remain on solving business problems rather than deciphering technical debt.
 
 ## **2-Main Convention Rules**
-1. This Manifesto Uses a combination of **PascalCasing** for internal data handling logic and **Natural Language presentation**  for visualization and high level perception of the dashboarding elements.
-2. Data Lineage : Any table, column names that are being imported from SQL, Access, Excel or any record management system should stay intact and unchanged this will insure traceability.
-3. Object Names shouldn't start with Numbers(0 - 9), Special Characters (#,$,%,^,&).[Objects include the building blocks of a data model : Measures, Tables, Columns, Relationships]
-
-4. Spaces are not allowed within object name, this will make retrieving and using names unnatural and error prone. If the object name is made up of two syllable, you should adhere to the PascalCasing.
-
+1. This Manifesto uses a combination of **PascalCasing** for internal data handling logic and **Natural Language presentation**  for visualization and high level perception of the dashboarding elements.
+2. **PascalCasing** is the practice of writing compound words or phrases such that each word in the phrase begins with a capital letter, with no intervening spaces or punctuation.
+3. PascalCasing can never start with small casing :   `Wrong :   oilRateAverage`  'Correct :  OilRateAverage'
+4. Object names must start with an uppercase letter(A-Z). This distinguishes objects (Tables/Measures) from variables or lower-level DAX elements(internal variables).
+5. Data Lineage : Tables, column names that are being imported from SQL, Access, Excel or any record management system(RMS) should stay intact and unchanged, to insure traceability.
+6. Object Names shouldn't start with numbers(0 - 9) or special Characters (#,$,%,^,&).[Objects include the building blocks of a data model : Measures, Tables, Columns, Relationships]
+7. Spaces are not allowed within object name, this will make retrieving and using names unnatural and error prone.If the object name is made up of one syllable or more, you should always adhere to the PascalCasing.
 	**Examples :** 
 	*Allowed Names* :  OilRate, GasRate, GasOilRatio
 	*Not Allowed:*   oilrate, gasRATE,  GASoilRAtio
-5. Use Standardized English Language (Either US or UK), don't intermix the two 
+8. Use Standardized English Language (Either US or UK), don't intermix the two 
 ` Example :  Don't Mix   Meter(US) and Metre(UK)`
-6. Use Mono Language Only (English, Arabic, Spanish, Turkish, Italian, etc).For Visuals other languages can be used for clarity and context.
-7. When possible, it's highly recommended to stick to English as main language of naming, this is for technical precision, avoiding special encoding issues and improved searchability
+9. Use Mono Language Only (English, Arabic, Spanish, Turkish, Italian, etc).For Visuals other languages can be used for clarity and context.
+10. When possible, it's highly recommended to stick to English as main language of naming, this is for technical precision, avoiding special encoding issues and improved searchability
 
-8. **Right to Left Script** * **Characters:** `أ, ب, ت, ج, د, ر, ز, س ...`  **Source:** Arabic / Farsi / Urdu  **Risk:** Causes "Cursor Jumping" in the DAX formula bar; mixes Right-to-Left and Left-to-Right logic, making complex formulas impossible to debug.
-9. **Spanish & Latin Accents** : `ñ, Ñ, á, é, í, ó, ú, ü` * **Source:** Spanish / French / Portuguese    **Risk:** These characters can cause "Table Not Found" errors when the model is queried by Python scripts or external APIs that expect standard UTF-8 or ASCII alphanumeric strings.
+11. **Right to Left Script** * **Characters:** `أ, ب, ت, ج, د, ر, ز, س ...`  **Source:** Arabic / Farsi / Urdu  **Risk:** Causes "Cursor Jumping" in the DAX formula bar; mixes Right-to-Left and Left-to-Right logic, making complex formulas impossible to debug.
+12. **Spanish & Latin Accents** : `ñ, Ñ, á, é, í, ó, ú, ü` * **Source:** Spanish / French / Portuguese    **Risk:** These characters can cause "Table Not Found" errors when the model is queried by Python scripts or external APIs that expect standard UTF-8 or ASCII alphanumeric strings.
    
 
 
