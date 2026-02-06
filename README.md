@@ -1,8 +1,25 @@
 #  **PowerBI Naming Manifesto**
-**Version** :  *0.1*
-**Author** : *Nashat Jumaah Omar*
-**Date** : *February 2026*
 
+ - **Version** :  *0.1*
+ -  **Date** : *February 2026*
+ - **Author** : *Nashat Jumaah Omar*
+ -  [Auther's LinkedIn](www.linkedin.com/in/nash-j)
+ - Email : nashattt90@gmail.com
+
+   
+   
+
+>  **LICENSING AND ATTRIBUTION**
+> Copyright (c) 2026 
+> Permission is hereby granted, free of charge, to any person obtaining
+> a copy of this documentation to deal in the documentation without
+> restriction, including without limitation the rights to use, copy,
+> modify, merge, publish, and distribute, subject to the following
+> conditions:
+> The above copyright notice and this permission notice shall be
+> included in all copies or substantial portions of the document. THE
+> **DOCUMENTATION IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND.**
+> ***Mandatory Reference:** Any implementation, adaptation, or derivative work based on these standards must maintain an explicit reference to this original document. The reference to the source and author must remain intact and clearly visible in the metadata or documentation of any project where this manifesto is applied.*
 
 **Table of Content:**
 
