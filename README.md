@@ -23,11 +23,11 @@
 
 **Table of Content:**
 
- 1. 1.Introduction to the Manifesto 
- 2. Main Convention Rules
- 3. Meausres
- 4. Tables
- 5. Columns
+1. [Introduction to the Manifesto](#1-introduction-to-powerbi-naming-convention-manifesto)
+2. [Main Convention Rules](#2-main-convention-rules)
+3. [Measures](#3-measures)
+4. [Tables](#4-tables)
+5. [Columns](#5-columns)
 
 ## **1-Introduction to PowerBI Naming Convention Manifesto**
 
