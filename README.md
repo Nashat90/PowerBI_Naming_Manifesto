@@ -1,12 +1,16 @@
 #  **PowerBI Naming Manifesto**
+**Version** :  *0.1*
+**Author** : *Nashat Jumaah Omar*
+**Date** : *February 2026*
+
 
 **Table of Content:**
-1-Introduction to the Manifesto
-2-Main Convention Rules
-3-Meausres
-4-Tables
-5-Columns
 
+ 1. 1.Introduction to the Manifesto 
+ 2. Main Convention Rules
+ 3. Meausres
+ 4. Tables
+ 5. Columns
 
 ## **1-Introduction to PowerBI Naming Convention Manifesto**
 
