@@ -52,7 +52,7 @@ A standardized naming convention ensures that intellectual property remains acce
 4. Object names must start with an uppercase letter(A-Z). This distinguishes objects (Tables/Measures) from variables or lower-level DAX elements(internal variables).
 5. Data Lineage : Tables, column names that are being imported from SQL, Access, Excel or any record management system(RMS) should stay intact and unchanged, to insure traceability.
 6. Object Names shouldn't start with numbers(0 - 9) or special Characters (#,$,%,^,&).[Objects include the building blocks of a data model : Measures, Tables, Columns, Relationships]
-7. Spaces are not allowed within object name, this will make retrieving and using names unnatural and error prone.If the object name is made up of one syllable or more, you should always adhere to the PascalCasing.
+7. Spaces shouldn't be usedwithin object name to seperate words, this will make retrieving and using object names unnatural and error prone.If the object name is made up of one syllable or more, always adhere to the PascalCasing.
 	**Examples :** 
 	*Allowed Names* :  OilRate, GasRate, GasOilRatio
 	*Not Allowed:*   oilrate, gasRATE,  GASoilRAtio
