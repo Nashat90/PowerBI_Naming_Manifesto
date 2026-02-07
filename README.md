@@ -25,7 +25,7 @@
 > 
 > 1.  **Copyright Notice:** *The above copyright notice and this permission notice shall be included in all copies or substantial portions of the document.*
 > 2.  **Mandatory Reference:** *Any implementation, adaptation, or derivative work based on these standards must maintain an explicit reference to this original document. Attribution to the source and author must remain intact and clearly visible within the metadata or documentation of any project where this framework is applied.*
-> 3.**Commercial and Internal Use:** *Permission is granted for the framework to be used within commercial organizations for internal project governance and dashboard development. However, the sale, sub-licensing, or commercial redistribution of the Framework itself as a standalone product or consulting framework is strictly prohibited without written consent from the author.*
+> 3.  **Commercial and Internal Use:** *Permission is granted for the framework to be used within commercial organizations for internal project governance and dashboard development. However, the sale, sub-licensing, or commercial redistribution of the Framework itself as a standalone product or consulting framework is strictly prohibited without written consent from the author.*
 
 
 ## **Table of Content:** 
