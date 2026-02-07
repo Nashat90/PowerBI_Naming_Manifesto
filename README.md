@@ -1,13 +1,17 @@
 #  **PowerBI Naming Manifesto**
 
+### The Manifesto
+
+> This manifesto is a commitment to transforming  **PowerBI**  from a mere reporting tool into a governed engineering environment. My intention is to bridge the gap between raw data and decision-making by transitioning rigorous programming practices and clean code principles into the world of business intelligence. By moving away from “database-speak” and ad-hoc naming, we are building a unified, human-centric language that treats data models with the same architectural significance as a professional software product
+> 
+> _Nashat J. Omar_
+
  - **Version** :  *0.1*
  -  **Date** : *February 2026*
  - **Author** : *Nashat Jumaah Omar*
  -  [Auther's LinkedIn](www.linkedin.com/in/nash-j)
  - Email : nashattt90@gmail.com
 
-   
-   
 
 > ### **LICENSING AND ATTRIBUTION**
 > 
