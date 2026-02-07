@@ -56,7 +56,7 @@ A standardized naming convention ensures that intellectual property remains acce
 ## **2-Main Convention Rules**
 1. This Manifesto uses a combination of **PascalCasing** for internal data handling logic and **Natural Language presentation**  for visualization and high-level perception of the dashboarding elements.
 2. **PascalCasing** is the practice of writing compound words or phrases such that each word in the phrase begins with a capital letter, with no intervening spaces or punctuation.
-3. **PascalCasing** shouldn't start with small casing letters `(a-z)`:   `Wrong :   oilRateAverage`  `Correct :  OilRateAverageMonthly`
+3. **PascalCasing** shouldn't start with small casing letters `(a-z)`:   `Bad :   oilRateAverage`  `Correct :  OilRateAverageMonthly`
 4. Object names must be descriptive, relevant, resonates with overall business orientation of the dashboarding and clearly indicates the goal of the calculation.
 `Bad Example : QOAv`
 `Correct Example : GORAverageMonthly`
@@ -66,7 +66,7 @@ A standardized naming convention ensures that intellectual property remains acce
 9. Spaces shouldn't be usedwithin object name to seperate words, this will make retrieving and using object names unnatural and error prone.If the object name is made up of one syllable or more, always adhere to the PascalCasing.
 	**Examples :** 
 	*Bad Names* :  `OilRate, GasRate, GasOilRatio`
-	*Good Allowed:*   `oilrate, gasRATE,  GASoilRAtio`
+	*Good Names:*   `oilrate, gasRATE,  GASoilRAtio`
 10. Use Standardized English Language (Either US or UK), don't intermix the two 
 ` Example :  Don't Mix   Meter(US) and Metre(UK)`
 11. Use Mono Language Only (English, Arabic, Spanish, Turkish, Italian, etc).For Visuals other languages can be used for clarity and context.
