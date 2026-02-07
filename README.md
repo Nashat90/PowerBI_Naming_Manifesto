@@ -1,4 +1,4 @@
-#  **PowerBI Naming Manifesto**
+#  **PowerBI Naming Framework**
 
 ### The Manifesto
 
