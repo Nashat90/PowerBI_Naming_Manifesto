@@ -16,7 +16,7 @@
 - **Current Version** :  *0.2*
 -  **Date** : *February 2026*
 - **Author** : *Nashat Jumaah Omar*
-- [Auther's LinkedIn](www.linkedin.com/in/nash-j)
+- Auther's LinkedIn: www.linkedin.com/in/nash-j
 - Email : nashattt90@gmail.com
 
 
